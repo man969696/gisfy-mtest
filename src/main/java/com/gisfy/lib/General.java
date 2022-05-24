@@ -82,5 +82,7 @@ public void delete_bt()
 	driver.findElement(By.xpath("/html/body/div[1]/div[1]/section/div/section/div/div/div[2]/div/div[2]/div/table/tbody/tr[5]/td[10]/form/button/i"));
 	System.out.println("Delete Successfully");
 	Reporter.log("Delete Successfully");
+	driver.quit();
    }
+
 }
